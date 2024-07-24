@@ -3,11 +3,11 @@ dotenv.config();
 
 const express = require("express");
 
-const HomeRouter = require("./routes/HomeRouter");
+const HomeRouter = require("./src/routes/HomeRouter");
 const app = express();
 app.use(express.json());
 const morgan = require("morgan");
-const connectdb = require("./config/db");
+const connectdb = require("./src/config/db");
 
 const PORT = 8000;
 
