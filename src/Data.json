@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "location": ["delhi", "mumbai", "chennai", "himachal", "up"],
+    "types": ["villa", "office", "house", "studio"],
+    "booking": ["Advance", "current"],
+    "services": ["rent", "sale"],
+    "bedroom": [2, 4],
+    "bathroom": [1, 2],
+    "area": ["200sqft", "400sqft", "600sqft"],
+    "title": "Villa Del Mar Retreat, Malibu",
+    "text": "72 Sunset Avenue, Los Angeles, California",
+    "rating": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 2,
+    "location": ["delhi", "mumbai", "chennai", "himachal", "up"],
+    "types": ["villa", "office", "house", "studio"],
+    "booking": ["Advance", "current"],
+    "services": ["rent", "sale"],
+    "bedroom": [2, 4],
+    "bathroom": [1, 2],
+    "area": ["200sqft", "400sqft", "600sqft"],
+    "title": "Rancho Vista Verde, Santa Barbara",
+    "text": "33 Maple Street, San Francisco, California",
+    "rating": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3,
+    "location": ["delhi", "mumbai", "chennai", "himachal", "up"],
+    "types": ["villa", "office", "house", "studio"],
+    "booking": ["Advance", "current"],
+    "services": ["rent", "sale"],
+    "bedroom": [2, 4],
+    "bathroom": [1, 2],
+    "area": ["200sqft", "400sqft", "600sqft"],
+    "title": "Sunset Heights Estate, Beverly Hills",
+    "text": "1040 Ocean, Santa Monica, California",
+    "rating": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 4,
+    "location": ["delhi", "mumbai", "chennai", "himachal", "up"],
+    "types": ["villa", "office", "house", "studio"],
+    "booking": ["Advance", "current"],
+    "services": ["rent", "sale"],
+    "bedroom": [2, 4],
+    "bathroom": [1, 2],
+    "area": ["200sqft", "400sqft", "600sqft"],
+    "title": "Coastal Serenity Cottage",
+    "text": "21 Hillside Drive, Beverly Hills, California",
+    "rating": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 5,
+    "location": ["delhi", "mumbai", "chennai", "himachal", "up"],
+    "types": ["villa", "office", "house", "studio"],
+    "booking": ["Advance", "current"],
+    "services": ["rent", "sale"],
+    "bedroom": [2, 4],
+    "bathroom": [1, 2],
+    "area": ["200sqft", "400sqft", "600sqft"],
+    "title": "Lakeview Haven, Lake Tahoe",
+    "text": "8 Broadway, Brooklyn, New York",
+    "rating": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 6,
+    "location": ["delhi", "mumbai", "chennai", "himachal", "up"],
+    "types": ["villa", "office", "house", "studio"],
+    "booking": ["Advance", "current"],
+    "services": ["rent", "sale"],
+    "bedroom": [2, 4],
+    "bathroom": [1, 2],
+    "area": ["200sqft", "400sqft", "600sqft"],
+    "title": "Casa Lomas De Machalí Machas",
+    "text": "33 Maple Street, San Francisco, California",
+    "rating": [1, 2, 3, 4, 5]
+  }
+]
