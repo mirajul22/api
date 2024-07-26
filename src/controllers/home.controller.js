@@ -1,4 +1,5 @@
 const data = require("../Data.json");
+const Model = require("../models/Home.model");
 
 const mult = async (req, res) => {
   res.send(JSON.stringify(data));
@@ -12,4 +13,21 @@ const single = async (req, res) => {
   res.end();
 };
 
-module.exports = { mult, single };
+const Store = async (req, res) => {
+  const { name, email, phone, subject, message } = req.body;
+  const saveData = new Model(
+    {
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    },
+    "-__v"
+  );
+  const RealData = await saveData.save();
+  res.send(JSON.stringify(RealData));
+  res.end();
+};
+
+module.exports = { mult, single, Store };
