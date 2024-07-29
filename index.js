@@ -17,7 +17,11 @@ connectdb();
 app.use(morgan("dev"));
 
 app.use("/", HomeRouter);
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 
 app.listen(PORT, () => {
   console.log(`server is running on ${PORT}`);
