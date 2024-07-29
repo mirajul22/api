@@ -5,6 +5,7 @@ const Schema = new mongoose.Schema({
   phone: Number,
   subject: String,
   message: String,
+  password: String,
 });
 
 const Home = mongoose.model("Home", Schema);
