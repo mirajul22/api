@@ -19,7 +19,8 @@ app.use(morgan("dev"));
 app.use("/", HomeRouter);
 app.use(
   cors({
-    origin: "*",
+    origin: ["http://localhost:3000", "*"],
+    optionsSuccessStatus: 200,
   })
 );
 
