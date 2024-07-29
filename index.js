@@ -11,18 +11,17 @@ const morgan = require("morgan");
 const connectdb = require("./src/config/db");
 
 const PORT = 8000;
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 
 connectdb();
 
 app.use(morgan("dev"));
 
 app.use("/", HomeRouter);
-app.use(
-  cors({
-    origin: ["http://localhost:3000", "*"],
-    optionsSuccessStatus: 200,
-  })
-);
 
 app.listen(PORT, () => {
   console.log(`server is running on ${PORT}`);
